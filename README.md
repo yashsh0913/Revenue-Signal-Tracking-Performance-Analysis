@@ -1,27 +1,48 @@
 # Sales Dashboard (SQL + Power BI)
 
-## Overview
-This project analyzes sales data to identify key trends in revenue, product performance, and regional sales.
+## Project Overview
+This project analyzes sales data to identify key business insights such as revenue trends, top-performing products, regional performance, and category-wise profitability. SQL is used for data analysis and Power BI is used for visualization.
 
 ## Tools Used
-- SQL (Data Analysis)
-- Power BI (Visualization)
+- SQL
+- Power BI
+- Excel / CSV
 
 ## Key Insights
-- Top-performing regions contribute majority of revenue
-- Certain products dominate overall sales
-- Monthly trends show seasonal growth patterns
+- Identified top-performing regions based on revenue  
+- Found top 10 products contributing the highest revenue  
+- Analyzed monthly sales trends  
+- Evaluated category-wise profit performance  
 
-## Dashboard Features
-- Revenue by region
-- Top 10 products
-- Monthly sales trend
-- Profit by category
+## SQL Queries
 
-## Files Included
-- SQL queries
-- Power BI dashboard (.pbix)
-- Dataset (if allowed)
+### Total Revenue by Region
+SELECT region, SUM(revenue) AS total_revenue
+FROM sales
+GROUP BY region
+ORDER BY total_revenue DESC;
 
-## Screenshots
-(Add your dashboard images here)
+### Top 10 Products by Revenue
+SELECT product, SUM(revenue) AS total_revenue
+FROM sales
+GROUP BY product
+ORDER BY total_revenue DESC
+LIMIT 10;
+
+### Monthly Sales Trend
+SELECT month, SUM(revenue) AS monthly_revenue
+FROM sales
+GROUP BY month
+ORDER BY month;
+
+### Profit by Category
+SELECT category, SUM(profit) AS total_profit
+FROM sales
+GROUP BY category
+ORDER BY total_profit DESC;
+
+## Dashboard
+![Sales Dashboard](dashboard.png)
+
+## Outcome
+This project helps understand sales performance and supports data-driven business decisions.
