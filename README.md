@@ -1,33 +1,85 @@
-# Sales Dashboard (SQL + Power BI)
+# 📊 Sales Performance & Customer Insights Dashboard
 
-## Project Overview
-This project was built to analyze sales data and understand how revenue, products, and regions are performing over time. The goal was to turn raw sales data into meaningful insights that can help in better business decision-making.
+## 📌 Problem Statement
 
-SQL was used to clean and aggregate the data, and Power BI was used to build an interactive dashboard for visualization.
-
----
-
-## Tools Used
-- SQL (Data exploration & analysis)
-- Power BI (Dashboard & visualization)
-- Excel / CSV (Dataset)
+Businesses often lack a unified view of sales performance, customer behavior, and revenue drivers, making it difficult to identify growth opportunities and optimize strategy.
+This project analyzes sales data to uncover trends, segment customers, and track key revenue metrics.
 
 ---
 
-## What I Focused On
-Instead of just building charts, I focused on answering real business questions like:
-- Which regions are driving the most revenue?
-- Which products are performing consistently well?
-- How do sales change month by month?
-- Which categories are actually generating profit?
+## 📊 Dataset
+
+Sales dataset containing:
+
+* Order ID
+* Customer ID
+* Product / Category
+* Region
+* Revenue / Sales Amount
+* Order Date
 
 ---
 
-## SQL Analysis
+## 🛠 Tools Used
 
-### Revenue by Region
-```sql
-SELECT region, SUM(revenue) AS total_revenue
-FROM sales
-GROUP BY region
-ORDER BY total_revenue DESC;
+* **Power BI** – Dashboard development, DAX measures, KPI tracking
+* **Excel** – Data cleaning and preparation
+
+---
+
+## 📈 Key KPIs
+
+* Total Revenue
+* Revenue Growth Trend
+* Top Products / Categories
+* Customer Segmentation
+* Regional Sales Performance
+
+---
+
+## 🔍 Key Insights
+
+* Revenue is concentrated among a small set of top-performing products and customers
+* Certain regions consistently outperform others, indicating strong market potential
+* Repeat customers contribute significantly to overall revenue, highlighting retention importance
+* Seasonal trends impact sales performance, suggesting opportunities for targeted campaigns
+
+---
+
+## 💡 Business Impact
+
+* Enabled clear visibility into revenue drivers and customer behavior
+* Identified high-value customer segments for targeted marketing
+* Highlighted regional and product-level opportunities for growth
+* Provided a scalable dashboard for ongoing sales performance tracking
+
+---
+
+## 📉 Dashboard Preview
+
+![Sales Dashboard](dashboard_preview.png)
+
+*Dashboard showcasing revenue trends, customer insights, and regional performance*
+
+---
+
+## 🚀 Project Structure
+
+```id="x6m9ap"
+/data
+/powerbi
+README.md
+dashboard_preview.png
+```
+
+---
+
+## 🔗 Project Link
+
+👉 https://github.com/yashsh0913/sales-dashboard-powerbi
+
+---
+
+## 📫 Connect With Me
+
+* LinkedIn: https://www.linkedin.com/in/yash-sharma-73300a249/
