@@ -1,85 +1,85 @@
-# 📊 Sales Performance & Customer Insights Dashboard
+# CRM Funnel & Conversion Optimization Dashboard
 
-## 📌 Problem Statement
+## Overview
 
-Businesses often lack a unified view of sales performance, customer behavior, and revenue drivers, making it difficult to identify growth opportunities and optimize strategy.
-This project analyzes sales data to uncover trends, segment customers, and track key revenue metrics.
-
----
-
-## 📊 Dataset
-
-Sales dataset containing:
-
-* Order ID
-* Customer ID
-* Product / Category
-* Region
-* Revenue / Sales Amount
-* Order Date
+This project analyzes CRM pipeline performance to identify conversion bottlenecks and optimize lead progression across funnel stages. It focuses on translating raw CRM data into actionable insights for improving conversion efficiency and pipeline visibility.
 
 ---
 
-## 🛠 Tools Used
+## Business Problem
 
-* **Power BI** – Dashboard development, DAX measures, KPI tracking
-* **Excel** – Data cleaning and preparation
+Sales pipelines often suffer from poor visibility into stage-wise performance, leading to:
 
----
+* High drop-offs between funnel stages
+* Delayed follow-ups and lost opportunities
+* Inefficient decision-making due to lack of structured KPIs
 
-## 📈 Key KPIs
-
-* Total Revenue
-* Revenue Growth Trend
-* Top Products / Categories
-* Customer Segmentation
-* Regional Sales Performance
+This project addresses these issues through structured funnel analysis and KPI-driven insights.
 
 ---
 
-## 🔍 Key Insights
+## Approach
 
-* Revenue is concentrated among a small set of top-performing products and customers
-* Certain regions consistently outperform others, indicating strong market potential
-* Repeat customers contribute significantly to overall revenue, highlighting retention importance
-* Seasonal trends impact sales performance, suggesting opportunities for targeted campaigns
-
----
-
-## 💡 Business Impact
-
-* Enabled clear visibility into revenue drivers and customer behavior
-* Identified high-value customer segments for targeted marketing
-* Highlighted regional and product-level opportunities for growth
-* Provided a scalable dashboard for ongoing sales performance tracking
+* Cleaned and structured CRM dataset using SQL
+* Built stage-wise funnel metrics (conversion %, drop-off rates)
+* Analysed pipeline velocity and lead movement patterns
+* Identified bottlenecks using root-cause analysis
+* Designed an interactive Power BI dashboard for stakeholder use
 
 ---
 
-## 📉 Dashboard Preview
+## Key Insights
 
-![Sales Dashboard](dashboard_preview.png)
-
-*Dashboard showcasing revenue trends, customer insights, and regional performance*
+* Identified major drop-offs in early and mid funnel stages
+* Highlighted delays in lead progression impacting conversion
+* Revealed stage-level inefficiencies affecting overall pipeline health
 
 ---
 
-## 🚀 Project Structure
+## Impact
 
-```id="x6m9ap"
-/data
-/powerbi
+* Projected ~6–8% improvement in conversion through targeted interventions
+* Improved visibility into pipeline performance and decision KPIs
+* Enabled faster, data-driven decision-making
+
+---
+
+## Dashboard Features
+
+* Funnel conversion analysis (stage-to-stage)
+* Pipeline velocity tracking
+* Drop-off diagnostics
+* KPI summary for quick decision-making
+
+---
+
+## Tools Used
+
+* SQL (MySQL / PostgreSQL)
+* Power BI (DAX)
+* Excel
+
+---
+
+## Project Structure
+
+```
+/dataset
+/schema.sql
+/queries.sql
+/dashboard.pbix
+/screenshots
 README.md
-dashboard_preview.png
 ```
 
 ---
 
-## 🔗 Project Link
+## Project Link
 
-👉 https://github.com/yashsh0913/sales-dashboard-powerbi
+👉 [View Dashboard & Files](https://github.com/yashsh0913/crm-funnel-conversion-optimization)
 
 ---
 
-## 📫 Connect With Me
+## Screenshots
 
-* LinkedIn: https://www.linkedin.com/in/yash-sharma-73300a249/
+*(Add your dashboard screenshots here)*
