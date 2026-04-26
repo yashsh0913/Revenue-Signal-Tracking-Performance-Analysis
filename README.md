@@ -1,85 +1,93 @@
-# CRM Funnel & Conversion Optimization Dashboard
+# 📊 CRM Funnel Conversion Optimization
 
-## Overview
-
-This project analyzes CRM pipeline performance to identify conversion bottlenecks and optimize lead progression across funnel stages. It focuses on translating raw CRM data into actionable insights for improving conversion efficiency and pipeline visibility.
-
----
-
-## Business Problem
-
-Sales pipelines often suffer from poor visibility into stage-wise performance, leading to:
-
-* High drop-offs between funnel stages
-* Delayed follow-ups and lost opportunities
-* Inefficient decision-making due to lack of structured KPIs
-
-This project addresses these issues through structured funnel analysis and KPI-driven insights.
+## 🔍 Overview
+This project analyses CRM funnel performance to identify conversion inefficiencies and optimise pipeline outcomes. Using SQL and Power BI, it evaluates stage-level transitions, pipeline velocity, and drop-off patterns to diagnose where potential revenue is lost and how conversion can be improved.
 
 ---
 
-## Approach
-
-* Cleaned and structured CRM dataset using SQL
-* Built stage-wise funnel metrics (conversion %, drop-off rates)
-* Analysed pipeline velocity and lead movement patterns
-* Identified bottlenecks using root-cause analysis
-* Designed an interactive Power BI dashboard for stakeholder use
-
----
-
-## Key Insights
-
-* Identified major drop-offs in early and mid funnel stages
-* Highlighted delays in lead progression impacting conversion
-* Revealed stage-level inefficiencies affecting overall pipeline health
+## 🎯 Objectives
+- Analyse end-to-end CRM funnel performance  
+- Identify stage-wise drop-offs and conversion gaps  
+- Evaluate pipeline velocity across stages  
+- Diagnose key drivers of conversion inefficiencies  
+- Estimate impact of process improvements  
 
 ---
 
-## Impact
-
-* Projected ~6–8% improvement in conversion through targeted interventions
-* Improved visibility into pipeline performance and decision KPIs
-* Enabled faster, data-driven decision-making
-
----
-
-## Dashboard Features
-
-* Funnel conversion analysis (stage-to-stage)
-* Pipeline velocity tracking
-* Drop-off diagnostics
-* KPI summary for quick decision-making
+## 🧰 Tools & Technologies
+- SQL (MySQL / PostgreSQL)  
+- Power BI  
+- Microsoft Excel  
 
 ---
 
-## Tools Used
-
-* SQL (MySQL / PostgreSQL)
-* Power BI (DAX)
-* Excel
-
----
-
-## Project Structure
-
-```
-/dataset
-/schema.sql
-/queries.sql
-/dashboard.pbix
-/screenshots
-README.md
-```
+## 📁 Project Structure
+data/        → Dataset used for analysis  
+schema/      → Table structure (schema.sql)  
+queries/     → SQL queries for KPI tracking & analysis  
+dashboard/   → Power BI dashboard & screenshot  
 
 ---
 
-## Project Link
+## 📊 Dashboard Preview
+![CRM Funnel Dashboard](dashboard/screenshot.png)
 
-👉 [View Dashboard & Files](https://github.com/yashsh0913/crm-funnel-conversion-optimization)
+> Add your dashboard screenshot in the `dashboard` folder as **screenshot.png**
 
 ---
 
-## Screenshots
+## 📈 Key Analysis
 
-*(Add your dashboard screenshots here)*
+### Funnel Performance
+- Tracked stage transitions: Leads → Calls → Meetings → Deals  
+- Calculated stage-wise and overall conversion rates  
+- Identified major drop-off points across the funnel  
+
+### Pipeline Diagnostics
+- Analysed pipeline movement and stage delays  
+- Evaluated pipeline velocity to assess efficiency  
+- Identified bottlenecks impacting conversion  
+
+### Root Cause Analysis
+- Diagnosed key drivers of drop-offs:
+  - Delayed follow-ups  
+  - Inconsistent engagement  
+  - Weak stage tracking  
+
+### KPI Framework
+- Built SQL queries to track:
+  - Conversion rates (stage-wise & overall)  
+  - Pipeline velocity  
+  - Lead-to-deal ratio  
+
+### Scenario Modeling
+- Simulated improvements:
+  - Faster follow-up cycles  
+  - Improved stage tracking  
+- Projected ~6–8% uplift in conversion rates  
+
+---
+
+## 💡 Key Insights
+- Conversion loss is concentrated in early and mid-funnel stages  
+- Follow-up delays significantly reduce stage progression  
+- Funnel visibility is critical for improving outcomes  
+- KPI-driven tracking enables faster and better decisions  
+
+---
+
+## 🚀 Outcome
+- Identified conversion inefficiencies across CRM pipelines  
+- Highlighted actionable levers for optimisation  
+- Enabled data-driven decision-making through structured analytics  
+
+---
+
+## 🧠 Skills Demonstrated
+SQL · CRM Analytics · Funnel Analysis · KPI Design · Root Cause Analysis · Power BI · Data Visualization · Scenario Modeling · Pipeline Analysis  
+
+---
+
+## 🔗 Connect
+- LinkedIn: https://linkedin.com/in/yash-sharma-73300a249  
+- GitHub: https://github.com/yashsh0913  
