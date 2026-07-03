@@ -1,4 +1,4 @@
-# revenue-intelligence_signal-tracking-diagnostics
+# Revenue Intelligence: Pipeline Conversion Diagnostics
 ### Sales Performance Intelligence & Trend Analysis Study  
 
 ---
