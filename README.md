@@ -1,4 +1,4 @@
-# Revenue Signal Tracking & Performance Diagnostics  
+# revenue-intelligence_signal-tracking-diagnostics
 ### Sales Performance Intelligence & Trend Analysis Study  
 
 ---
